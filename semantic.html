@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+             <meta charset="UTF-8">
+                               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Replicating Basic Layout with Semantic Elements</title>
+
+             <style>
+                 h1,h2,h3,h4,h5,h6,p {text-align: center;}
+                                 Nav { background-color:rgb(17, 199, 245);}
+                                body { background-color: yellow;
+                                       width: auto; height: 1000px;;
+                                       color: black;} 
+                           #section_1 {background-color: rgb(219, 164, 210);
+                                       width: auto; height:100%;
+                                       color: black;}
+                           #section_2 {  width: 95%; height:30%;
+                                        border: 0px solid green;
+                                        padding: 0px;
+                                        margin: 3%; background-color: rgb(131, 120, 125);
+                                        color: black;
+                                       }
+                           #section_3 {background-color: white;
+                                       width: 100; height:auto;
+                                       color: black;}
+                                ASIDE {background-color: rgb(194, 13, 7);
+                                      width: 500px; height:1000px;
+                                      color: black; float: right;} 
+                           div article{background-color: rgb(13, 90, 51);
+                                        width: auto; height:40%;
+                                        color: black;}
+                    div section,footer{ display: inline-block;}
+                           div Footer {background-color:black; 
+                                       width: 100%; height:auto;
+                                       color: black;}   
+                            footer h6 { padding: 1em;
+                                        text-align: center;
+                                        font-size: 15px;
+                                        color: rgb(240, 232, 232);}       
+               </style>
+     </head>
+     <header>
+               <div style="background-color: rgb(40, 4, 247);
+                            padding: 1px;
+                            text-align: center;
+                            font-size: 30px;
+                            color: black;" >
+                       <h1 >Header</h1>
+                </div>
+         <nav>
+                       <b><h> Navigation Bar</h></b>
+                <ul>
+                       <li><a href="#section_1"> Section 1 </a></li>
+                       <li><a href="#section_2"> Section 2 </a></li>
+                       <li><a href="#section_3"> Section 3 </a></li> 
+                </ul>
+         </nav>
+    </header>
+  <body>
+                       <h2> Main Content </h2>
+        <section id="section_1">   <Article class="article_1">
+            <aside>
+                       <h3> Aside</h3>
+                  <ul>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                       <li>Lorem ipsum dolor sit amet.</li>
+                  </ul>
+           </aside>
+                      <h3> Section 1 </h3>
+                      <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quidem dolores obcaecati incidunt a temporibus molestias totam modi minima iusto necessitatibus quia, quo aspernatur soluta, qui illo nobis velit voluptas sed magni ducimus voluptate iste blanditiis placeat? Officia sint vero corporis earum, debitis dolorum laudantium accusamus ea porro placeat? Odit obcaecati esse praesentium vel repudiandae. Libero culpa fugiat amet, quis ex suscipit dolorem voluptate? Earum numquam porro maxime, ut eveniet aut tempora asperiores id voluptatibus! Non soluta repellat, sed nihil quasi animi distinctio cupiditate magnam mollitia consectetur nesciunt tempora suscipit tempore quia ratione libero nobis pariatur maiores minus odio! Explicabo.
+                     </p>
+            <div>      
+                 <article>     
+                     <h4>Article 1</h4>
+                      <p>
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quasi atque, harum tenetur aliquam ratione? Harum ducimus fugiat eveniet quam consectetur debitis voluptatibus? Id quam commodi necessitatibus esse? Excepturi quae, corrupti itaque error expedita incidunt nemo. Ratione minus provident necessitatibus eveniet magni? Optio possimus vero, hic praesentium maxime animi quod.
+                     </p>
+                </Article> 
+            </div>       
+      </section> 
+                     <hr style="color: white;">      
+     <section id="section_2">
+                      <h3> Section 2 </h3>
+            <div style="float: left;"><img src="dog_1.jpg" alt="picture of dog" width="150px"  height="150px"></div>
+   
+             <div>
+                 <article>
+                      <h4>Article 2</h4>
+                      <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nisi reiciendis, recusandae voluptate rem debitis repudiandae eius quia praesentium ratione aperiam! Aspernatur sequi quam adipisci vero cum ex officiis, esse repudiandae nihil quo ipsum voluptatem quos sint possimus? Vel fugiat ut maiores laboriosam culpa alias error nemo, neque autem nulla.
+                      </p>
+             </div>
+             <div style="float:right;" ><img src="dog_2.jpg" alt="picture of dog" width="150px"  height="150px"></div>
+             <div>
+                  <Article>
+                      <h4>Article 3</h4>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt repudiandae facere beatae quaerat exercitationem, asperiores iste impedit labore corporis maiores dolorem possimus nihil autem qui accusantium ducimus voluptates fuga quis, rem placeat laboriosam inventore praesentium! Quasi dignissimos eaque quisquam modi aliquid. Id beatae fuga quam nam rem ipsum voluptatem.        
+                      </p>
+                 </Article>
+            </div>
+      </section>
+
+                    <hr style="color: white;">
+
+               <div id="section_3">
+                    <h3> Section 3 </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, exercitationem. </p>
+                    <form style="text-align: center;">
+                        <label for="fname">Your Name:</label>
+                        <input type="text" id="lname" name="lname" value="Name">
+                        <input type="button" value="Subcribe">
+                    </form>
+                        <br>
+                         <br>
+               <footer>
+                        <span style="color: white;">
+                        <h6> Copyrigth 2023 </h6>
+                       </span>
+                </footer>
+             </div>
+  </body>
+</html>
