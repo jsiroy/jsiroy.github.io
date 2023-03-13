@@ -71,7 +71,7 @@ nav {background-color:none; text-decoration:none}
              {body div.name {padding-left: 1%;
               }}
      @media (max-width: 800px) 
-            {.button1 { top: 110%;
+            {.button1 { top: 100%;
                 left: 24%;;
                }}
   
