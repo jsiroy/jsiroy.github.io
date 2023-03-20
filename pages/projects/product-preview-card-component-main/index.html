@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+                     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <header>
+  <style>
+          
+          
+          p {font-family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+                          Weights: 500, 700;}
+          h1 {font-family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+                          Weights: 700;}
+                    .button {
+                               background-color: #4CAF50; /* Green */
+                               border: none;
+                               color: white;
+                               padding: 10px 70px;
+                               text-align: center;
+                               text-decoration: none; justify-content: center;
+                               display: inline-block;
+                               margin: 4px 4px; border-radius: 10px;
+                               cursor: pointer; 
+                               font-size:20px} 
+
+                    .content { padding-top:8%; display: flex;
+                              justify-content: center; flex-direction: row;
+                              
+                              }                                                                 
+                .item { width:350px ;height:500px;
+                         background-color: white;
+                     }
+               body {background-color:rgb(224, 212, 220)}
+
+    /* Responsive layout - makes a one column-layout instead of two-column layout */
+    /* desktop mobile view */
+    
+
+      @media (max-width: 800px) {div.content {flex-direction: column; padding-left: 12%;
+                                              }}                                  
+
+  </style>
+</header>
+ <body>
+
+   <div class="content">
+           <div class="item">
+                    <picture>
+                             <source media="(max-width: 799px)" srcset="image-product-mobile.jpg" />
+                             <source media="(min-width: 800px)" srcset="image-product-desktop.jpg" />
+                             <img src="image-product-desktop.jpg" alt="Picture of Perfume" width="350px" height="500px"/>
+                    </picture>                                          
+            </div>
+           <div class="item">
+                <div style="padding:12%">
+                   <p>Perfume</p>
+                 <h1> Gabrielle Essence Eau De Parfum</h1>
+                 <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                 Perfumer-Creator for the House of CHANEL.</p>
+                 <br>
+                 <br>
+                    <div >
+                         <span style="font-family:[Fraunces](https://fonts.google.com/specimen/Fraunces)
+                         Weights: 700;"><spans style="font-size: 180%"><span style="color:#4CAF50";><b>$149.99</b>
+                        </span></spans></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <span style="font-size: 100%"><s>$169.99</s></span>
+                    </div> 
+                     <br>
+                     <br>
+                     <br>
+                      <center> <button class="button button1"><img src="icon-cart.svg">Add to Cart</button></center>
+                    </div>
+                </div>
+           </div>
+           
+    </div>
+  </body>
+</html>

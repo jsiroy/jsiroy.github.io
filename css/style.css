@@ -40,7 +40,7 @@
     a:hover { text-decoration-line: underline ; 
                  color:  rgb(98, 98, 233);
                    }
-    .actionbutton{z-index:1;position:fixed; top: 72%; left: 56%;
+    .actionbutton{z-index:1;position:fixed; top: 70%; left: 56%;
                     
                       }
     /*--------- main page container-----------*/         

@@ -1,0 +1,66 @@
+
+Body {background-color: rgb(216, 206, 193); background-color: rgb(216, 206, 193);font-family: 'Trebuchet MS';}
+a{ text-decoration: none; 
+    background-color:none;color:  black; }
+a:hover { text-decoration-line: underline ; 
+    color:  rgb(98, 98, 233);
+      }
+/* ---------Call button------------*/
+  .callbutton{position:absolute; top: 65%; left: 63%;}
+     
+ /*--------- ----------NAVAGATION & BUTTONS -----------*/
+               .navitem ul { display:flex; flex-direction: row;list-style-type: none;
+                             margin: 0;
+                             padding-left: 20px;
+                             overflow: hidden;
+                             background-color:none;
+                             position: center; 
+                             }
+       
+             .navitem ul li a {
+                       padding-left: 10%;
+                        display: inline-block;
+                        color:  rgb(98, 98, 233);
+                        text-align: center;
+                        padding: 20px 16px;
+                        text-decoration: none;
+                         }
+                .button1 {
+                    background-color:  rgb(181, 181, 241);
+                     border-radius: 20px; clear: both;
+                     position:absolute; font-family: Trebuchet MS;
+                     font-size: 20px;
+                     display: inline-block;
+                     color:white;
+                     text-align: center;
+                     padding: 8px 35px;
+                     text-decoration-color: none;
+                     border-color: rgb(98, 98, 233);
+                     top: 65%;
+                     left: 57%;                           
+                     cursor: pointer;
+                      }
+            .navitem ul li a:hover {
+                    text-decoration-line: underline; 
+                    color:  rgb(50, 45, 51)
+                           }
+            button.button1:hover { background-color: #5fb8db;                      
+                             }
+            .body_container.bodyitem{}
+            .myname{position:absolute; top: 67%; left: 25.5%;}
+/*-----------Responsive Mobile View Home Field---------------*/
+     @media (max-width: 800px) 
+             {.body_container {flex-direction: column;
+              }}
+     @media (max-width: 800px) 
+             {body div.name {padding-left: 1%;
+              }}
+     @media (max-width: 800px) 
+            {.button1 { top: 95%;
+                left: 60%;;
+               }}
+  
+  /*-----------Responsive Mobile View Project Field ---------------*/
+     @media (max-width: 800px) 
+            {.project_container_1{display:flex; flex-direction: column;
+                }}
