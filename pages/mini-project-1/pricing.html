@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BossJo Electronics</title>
+    <meta name="description" content="Electronic Equipment Repair Services">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">   
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+</head>
+<header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+</nav>
+
+<style>
+  input[type=text], select, textarea {
+               width: 100%;
+               padding: 12px;
+               border: 1px solid #ccc;
+               border-radius: 4px;
+               box-sizing: border-box;
+               margin-top: 6px;
+               margin-bottom: 16px;
+               resize: vertical;
+                }           
+  
+  input[type=submit] {
+                 background-color: rgb(110, 118, 126);
+                 color: white;
+                 padding: 12px 10px;
+                 border: none;
+                 border-radius: 4px;
+                 cursor: pointer;
+              }
+  
+  input[type=submit]:hover {
+    background-color: #1f5da5;
+              }
+  
+  .container { width: 400px; height: 600px;
+    border-radius: 5px;
+    background-color: rgb(214, 225, 235);
+    padding: 20px;
+              }
+  </style>
+  </header>
+  
+  <body>
+  
+  <h3> Service Pricing Estimate</h3>
+  
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="device"Unit>What is your device?</label>
+      <input type="text" id="brandname" name="brand/model" placeholder="Brand /Model/ Description.">
+  
+      <label for="ContactInfo">Your Contact Info?</label>
+      <input type="text" id="Contact" name="Mobile number/ Email" placeholder="Mobile number/ Email.">
+  
+      <label for="Schedule">Available Schedule</label>
+      <select id="day" name="day">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+  
+      <label for="subject">Your Name & Location?</label>
+      <textarea id="Address" name="Address" placeholder="Name/Complete Address/ Landmarks" 
+      style="height:100px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  </body>
+  </html>

@@ -1,0 +1,93 @@
+
+.accordionheader{font-size: 200px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.background{background-color: rgb(216, 206, 193);font-family: 'Trebuchet MS';}
+
+/* ---------Call button------------*/
+ 
+  .about{padding-top: 3%;}   
+ /*--------NAVAGATION & BUTTONS -----------*/
+    a{ text-decoration: none; 
+               background-color:none;color:  black; }
+     .navbar {
+              
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+
+              }
+      .hovercolor:hover{color: blue;}
+    .profileimage{opacity: .3; 
+                animation-name: profileanimation;
+                       animation-duration: 7s;
+                      } 
+     @keyframes profileanimation {
+            from {opacity:1;}
+              to {opacity:.3;}
+                      }                
+    .profileimage:hover{opacity: .9; 
+                      cursor: pointer;
+                    }  
+    .navbar{z-index:1;}     
+   .navbar a:hover{  
+                 font-weight: 900;
+                  }
+
+    .navbar a:active{ 
+                   font-weight: 900;
+                    }
+    a:hover { text-decoration-line: underline ; 
+                 color:  rgb(98, 98, 233);
+                   }
+    .actionbutton{z-index:1;position:fixed; top: 72%; left: 56%;
+                    
+                      }
+    /*--------- main page container-----------*/         
+      
+/*--------- main page container-----------*/
+     .nameheader{ padding-left:20%; padding-top: 2%;}              
+     span.highlight{color:rgb(98, 98, 233)}
+     span.highlightname{font-weight: bold ;}
+
+    .navitem ul li a:hover {
+            text-decoration-line: underline; 
+            color:  rgb(50, 45, 51)
+                   }
+
+    .mainpagegrid{padding-left: 20%; padding-top: 5%;}  
+/*-----------Responsive Mobile View Home Field---------------*/
+     
+  /*-----------Responsive Mobile View Project Field ---------------*/
+     @media (max-width: 800px) 
+            {.actionbutton{position:fixed; top: 65%; left: 70%;
+                }}
+
+  /* --------------about page section----------------*/
+  .description{list-style-type:none;
+  }
+        .list {
+              font-weight:bolder;
+               }
+
+                 
+    .skill-name{ opacity: .5;
+       
+                }
+         .skills{ background-color: white;
+                  border: 1px solid rgb(115, 113, 119);
+                  padding: 15px; height: 400px; padding-top:50px;
+                  box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+                 -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+                 -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+                  } 
+    .skill-name:hover{opacity:1;}        
+    .skill-name{ background-color: white;
+                 border: 1px solid rgb(115, 113, 119);
+                 padding: 15px; height: 400px; padding-top:50px;
+                 box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+                -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+                -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+                 } 
+   
+                
