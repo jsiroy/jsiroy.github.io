@@ -9,8 +9,7 @@
  /*--------NAVAGATION & BUTTONS -----------*/
     a{ text-decoration: none; 
                background-color:none;color:  black; }
-     .navbar {
-              
+     .navbar { opcaity: 1;
             -webkit-transition: all 0.3s ease-out;
             -moz-transition: all 0.3s ease-out;
             -ms-transition: all 0.3s ease-out;
@@ -30,7 +29,7 @@
                       cursor: pointer;
                     }  
     .navbar{z-index:1;}     
-   .navbar a:hover{  
+   .navbar a:hover{  opacity: .5;
                  font-weight: 900;
                   }
 

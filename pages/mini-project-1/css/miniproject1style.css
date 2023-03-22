@@ -1,12 +1,7 @@
                   
             
-    #main {display:flex;   background-color: rgb(214, 225, 235);
-               width: 90%; height: 500px;
-               border: 0px solid green;
-               padding: 50px;
-               margin: 20px;flex-direction: row; justify-content:center;}
-
-                    
+  
+               
   .button1 {border-radius: 10px; clear: both;position: absolute;
                 top: 45%; font-size: 30px; padding: 5px;
                 left: 35%;
@@ -19,4 +14,23 @@
                  color: white;}
                  h1,h2,h3,h4,h5,h6,p {font-family: 'Trebuchet MS', 
                  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-                 body {background-color: rgb(163, 174, 175);}
+    body{background-color: rgb(25, 46, 206);}
+
+           .navbar{ padding-left: 10px;
+                   }
+  .nav-item ul,li,a{font-size: larger; font-weight: 600;
+                   }
+   .footernav ul,li{text-decoration: none;}
+  .aboutbackground{background-color:white;}                 
+  .servicingbackground{background-color:white;}               
+   /* .pricingbackground{background-color:rgb(212, 222, 228);}                 */
+   .footerbackground{background-color:rgb(212, 222, 228);padding:20px;}          
+   {
+                    height :100%;
+                    width: 100%;
+                    /* background-color: rgba(241, 230, 230, 0.466); */
+                    }        
+      
+                  
+/****** Pricing CSS section----------------*/
+
