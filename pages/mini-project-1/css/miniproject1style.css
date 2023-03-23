@@ -1,35 +1,53 @@
-                  
-            
-  
-               
-  .button1 {border-radius: 10px; clear: both;position: absolute;
-                top: 45%; font-size: 30px; padding: 5px;
-                left: 35%;
+                                
+  .button1 {justify-content:center; border-radius: 10px; clear: both;position: absolute;
+                top: 55%; font-size: 30px; padding: 5px;
+                left: 30%;
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
                 0 5px 20px 0 rgba(197, 189, 189, 0.19)
                 
                  }
   .button1:hover {
-                 background-color: #98a398; /* Green */
+                 background-color: #5d6573; /* Green */
                  color: white;}
                  h1,h2,h3,h4,h5,h6,p {font-family: 'Trebuchet MS', 
-                 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-    body{background-color: rgb(25, 46, 206);}
+                 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+                  Arial, sans-serif;}
+    
+    body{background-color: rgb(157, 159, 169);} */
 
-           .navbar{ padding-left: 10px;
+    .frontads{ }   
+    .navbar{ padding-left: 10px;
                    }
-  .nav-item ul,li,a{font-size: larger; font-weight: 600;
+    /* .businesslogo{font-weight:bolder; font-size: larger; color:blue} */
+    .businesslogo{
+                  font-weight:bolder; 
+                  font-size: larger; 
+                  color:white
+                  position: relative;
+                  animation-name:businesslogoanimation;
+                  animation-duration: 6s;
+                  animation-iteration-count: infinite;
+                  }
+    
+    @keyframes businesslogoanimation {
+                    0%   {color:rgb(220, 227, 230); }
+                    25%  {color:rgb(191, 191, 208); }
+                    50%  {color:rgb(120, 127, 142); }
+                    75%  {color:rgb(89, 86, 101); }
+                    100% {color:rgb(39, 37, 45); }
+              
                    }
-   .footernav ul,li{text-decoration: none;}
+ 
+  .nav-item{font-size: larger; font-weight: 600; padding:20px;}
+   .navbackground{background-color:rgb(211, 215, 228) !important;}
+   .nav-link:hover{background-color: white !important;}
+   .navfooter a{text-decoration: none !important; color:white !important}
+   .navfooter a:hover{color:black !important;}
   .aboutbackground{background-color:white;}                 
-  .servicingbackground{background-color:white;}               
-   /* .pricingbackground{background-color:rgb(212, 222, 228);}                 */
-   .footerbackground{background-color:rgb(212, 222, 228);padding:20px;}          
-   {
-                    height :100%;
-                    width: 100%;
-                    /* background-color: rgba(241, 230, 230, 0.466); */
-                    }        
+  .servicingbackground{background-color:white;} 
+  .copyright{color:white; font-size: 20px;} 
+  .navfooter{ font-size: 17px;}            
+   /* .pricingbackground{background-color:rgb(212, 222, 228);}                 */      
       
                   
 /****** Pricing CSS section----------------*/
