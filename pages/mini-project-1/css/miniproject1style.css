@@ -66,7 +66,7 @@
                {.projectlabel{padding-left:1; margin:1;
                     }}
  @media (max-width: 800px) 
-                    {.button1{top:60%; left:50%
+                    {.button1{position:fixed top; left:60%
                          }}                  
       /* @media (max-wi                
   /* @media (max-width: 800px)  */
