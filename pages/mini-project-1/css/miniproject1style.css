@@ -37,7 +37,8 @@
                     100% {color:rgb(39, 37, 45); }
               
                    }
- 
+
+   .navservices:hover{color:blue}
   .nav-item{font-size: larger; font-weight: 600; padding:20px;}
    .navbackground{background-color:rgb(211, 215, 228) !important;}
    .nav-link:hover{background-color: white !important;}
@@ -52,3 +53,22 @@
                   
 /****** Pricing CSS section----------------*/
 
+@media (max-width: 800px) 
+            {.labelmain{display: grid;
+              grid-template-columns: column auto auto;
+                }}
+                
+@media (max-width: 800px) 
+{.contentcsspaddingmobile{padding-left: 0; margin:0;
+    }}
+                .contentcsspaddingmobile
+ @media (max-width: 800px) 
+               {.projectlabel{padding-left:1; margin:1;
+                    }}
+ @media (max-width: 800px) 
+                    {.button1{top:60%; left:50%
+                         }}                  
+      /* @media (max-wi                
+  /* @media (max-width: 800px)  */
+  /* {.main_content_2{position:fixed; top: 65%; left: 70%; */
+      /* }} */
