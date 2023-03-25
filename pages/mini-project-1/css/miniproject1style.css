@@ -27,7 +27,7 @@
                   animation-duration: 6s;
                   animation-iteration-count: infinite;
                   }
-    
+    footer{margin:0; padding-bottom: 0;}
     @keyframes businesslogoanimation {
                     0%   {color:rgb(220, 227, 230); }
                     25%  {color:rgb(191, 191, 208); }
