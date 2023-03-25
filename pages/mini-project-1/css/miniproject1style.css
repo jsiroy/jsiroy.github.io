@@ -1,5 +1,6 @@
                                 
-  .button1 {justify-content:center; border-radius: 10px; clear: both;position: absolute;
+  .button1 {justify-content:center; border-radius: 10px;
+                clear: both;position: absolute;
                 top: 55%; font-size: 30px; padding: 5px;
                 left: 30%;
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
@@ -13,7 +14,7 @@
                  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
                   Arial, sans-serif;}
     
-    body{background-color: rgb(157, 159, 169);} */
+   body{background-color: rgb(157, 159, 169);} */ */ */
    
     .navbar{ padding-left: 10px;
                    }
@@ -27,7 +28,7 @@
                   animation-duration: 6s;
                   animation-iteration-count: infinite;
                   }
-    footer{margin:0; padding-bottom: 0;}
+    footer{margin:0; padding-bottom: 0;background-color: rgb(157, 159, 169);}
     @keyframes businesslogoanimation {
                     0%   {color:rgb(220, 227, 230); }
                     25%  {color:rgb(191, 191, 208); }
@@ -36,13 +37,17 @@
                     100% {color:rgb(39, 37, 45); }
               
                    }
+  .formlenghtsmall{ width: 310px;
+    height: 1em;} 
+   .formlength{ width: 750px;
+    height: 1em;}              
 
-   .navservices:hover{color:blue}
+  .navservices:hover{color:blue}
   .nav-item{font-size: larger; font-weight: 600; padding:20px;}
-   .navbackground{background-color:rgb(211, 215, 228) !important;}
-   .nav-link:hover{background-color: white !important;}
-   .navfooter a{text-decoration: none !important; color:white !important}
-   .navfooter a:hover{color:black !important;}
+  .navbackground{background-color:rgb(211, 215, 228) !important;}
+  .nav-link:hover{background-color: white !important;}
+  .navfooter a{text-decoration: none !important; color:white !important}
+  .navfooter a:hover{color:black !important;}
   .aboutbackground{background-color:white;}                 
   .servicingbackground{background-color:white;} 
   .copyright{color:white; font-size: 20px;} 
@@ -56,18 +61,27 @@
             {.labelmain{display: grid;
               grid-template-columns: column auto auto;
                 }}
-                
+@media (max-width:800px) 
+            {.maintext{padding-left: 0;
+                }}
+@media (max-width:400px) 
+        {body{padding-left: 0;
+                }}             
 @media (max-width: 800px) 
 {.contentcsspaddingmobile{padding-left: 0; margin:0;
     }}
-                .contentcsspaddingmobile
- @media (max-width: 800px) 
-               {.projectlabel{padding-left:1; margin:1;
+
+@media (max-width: 800px) 
+      {.projectlabel{padding-left:1; margin:1;
                     }}
- @media (max-width: 800px) 
-  {.button1{position:absolute; left:36%; top:100%;
+@media (max-width: 800px) 
+      {.aboutpic{Display:none;
+                         }}
+@media (max-width: 800px) 
+       {.button1{position:absolute; left:36%; top:100%;
                          }}                  
-      /* @media (max-wi                
+  
+/* @media (max-wi                
   /* @media (max-width: 800px)  */
   /* {.main_content_2{position:fixed; top: 65%; left: 70%; */
       /* }} */
