@@ -69,8 +69,11 @@
             /* {.paddingnavfooter{padding-left: 24%; */
                 /* }} */
 
-  @media(max-width: 400px) 
+@media(max-width: 400px) 
         {.navpaddingitem{padding:1% !important;
+                    }}
+@media(min-width: 400px) 
+        {.navpaddingitem{padding:2% !important;
                     }}
                 
 @media (max-width: 800px) 
