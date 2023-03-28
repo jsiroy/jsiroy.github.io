@@ -37,9 +37,9 @@
                     100% {color:rgb(39, 37, 45); }
               
                    }
-  .formlenghtsmall{ width: 310px;
+  .formlenghtsmall{ width: 100%;
                     height: 1em;} 
-   .formlength{ width: 750px;
+   .formlength{ width: 100%;
                       height: 1em;}  
                                   
   .professionaltext{padding-left: 0%; padding-top: 10%!important;}
@@ -68,10 +68,11 @@
 /* @media(max-width: 768px)  */
             /* {.paddingnavfooter{padding-left: 24%; */
                 /* }} */
-
-@media(max-width: 400px) 
-        {.navpaddingitem{padding:1% !important;
+             /* down */
+@media(max-width: 400px)  
+        {.navpaddingitem{padding-left:0; padding:1% !important;
                     }}
+              /* up */
 @media(min-width: 400px) 
         {.navpaddingitem{padding:2% !important;
                     }}
