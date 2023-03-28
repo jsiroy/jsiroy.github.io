@@ -70,7 +70,7 @@
                 /* }} */
 
   @media(max-width: 375px) 
-        {.navpaddingitem{padding:2% !important;
+        {.navpaddingitem{padding:1% !important;
                     }}
                 
 @media (max-width: 800px) 
