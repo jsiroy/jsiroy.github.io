@@ -41,7 +41,7 @@
                     height: 1em;} 
    .formlength{ width: 100%;
                       height: 1em;}  
-                                  
+                                 
   .professionaltext{padding-left: 0%; padding-top: 10%!important;}
   .frontads{padding-left: 15%;}
   .navservices:hover{color:blue}
@@ -61,7 +61,10 @@
                   
 /****** Pricing CSS section----------------*/
 
-
+ 
+@media (max-width: 800px) 
+       {.copyrightpadding{padding-right: 13% !important;
+        }}
 @media (max-width: 800px) 
        {.frontads{padding-left: 0;
         }}
