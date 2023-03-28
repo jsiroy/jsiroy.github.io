@@ -1,8 +1,8 @@
                                 
   .button1 {justify-content:center; border-radius: 10px;
                 clear: both;position: absolute;
-                top: 55%; font-size: 30px; padding: 5px;
-                left: 30%;
+                top: 50%; font-size: 30px; padding: 5px;
+                left: 40%;
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
                 0 5px 20px 0 rgba(197, 189, 189, 0.19)
                 
@@ -10,7 +10,7 @@
   .button1:hover {
                  background-color: #5d6573; /* Green */
                  color: white;}
-                 h1,h2,h3,h4,h5,h6,p {font-family: 'Trebuchet MS', 
+   h1,h2,h3,h4,h5,h6,p {font-family: 'Trebuchet MS', 
                  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
                   Arial, sans-serif;}
     
@@ -22,14 +22,14 @@
     .businesslogo{
                   font-weight:bolder; 
                   font-size: larger; 
-                  color:white
+                  color:white;
                   position: relative;
                   animation-name:businesslogoanimation;
                   animation-duration: 6s;
                   animation-iteration-count: infinite;
                   }
     footer{margin:0; padding-bottom: 0;background-color: rgb(157, 159, 169);}
-    @keyframes businesslogoanimation {
+@keyframes businesslogoanimation {
                     0%   {color:rgb(220, 227, 230); }
                     25%  {color:rgb(191, 191, 208); }
                     50%  {color:rgb(120, 127, 142); }
@@ -38,10 +38,12 @@
               
                    }
   .formlenghtsmall{ width: 310px;
-    height: 1em;} 
+                    height: 1em;} 
    .formlength{ width: 750px;
-    height: 1em;}              
-
+                      height: 1em;}  
+                                  
+  .professionaltext{padding-left: 0%; padding-top: 10%!important;}
+  .frontads{padding-left: 15%;}
   .navservices:hover{color:blue}
   .nav-item{font-size: larger; font-weight: 600; padding:20px;}
   .navbackground{background-color:rgb(211, 215, 228) !important;}
@@ -51,24 +53,51 @@
   .aboutbackground{background-color:white;}                 
   .servicingbackground{background-color:white;} 
   .copyright{color:white; font-size: 20px;} 
-  .navfooter{ font-size: 17px;}            
+  .navfooter{ font-size: 17px;} 
+  .brandlogos{padding-left:12% !important;}  
+  .paddingfootericon{padding-left:4% !important;}
    /* .pricingbackground{background-color:rgb(212, 222, 228);}                 */      
       
                   
 /****** Pricing CSS section----------------*/
 
+
 @media (max-width: 800px) 
-            {.labelmain{display: grid;
+       {.frontads{padding-left: 0;
+        }}
+/* @media(max-width: 768px)  */
+            /* {.paddingnavfooter{padding-left: 24%; */
+                /* }} */
+
+  @media(max-width: 375px) 
+        {.navpaddingitem{padding:2% !important;
+                    }}
+                
+@media (max-width: 800px) 
+            {.professionaltext{padding-left: 0;
+                }}
+                
+@media (max-width: 425px) 
+       {.paddingnavfooter{padding-left: 0;
+        }}
+@media (max-width: 360px) 
+       {.paddingnavfooter{padding-left: 0;
+        }}
+@media (max-width: 800px) 
+            {.labelmain{display: grid; 
               grid-template-columns: column auto auto;
                 }}
 @media (max-width:800px) 
             {.maintext{padding-left: 0;
                 }}
-@media (max-width:400px) 
-        {body{padding-left: 0;
-                }}             
+ @media (max-width:420px) 
+        {.killpadding{padding-left: 0;}}
+           
 @media (max-width: 800px) 
-{.contentcsspaddingmobile{padding-left: 0; margin:0;
+     {.contentcsspaddingmobile{padding-left: 0; margin:0;
+    }}
+ @media (max-width: 800px) 
+     {.aboutuspic{display:none;
     }}
 
 @media (max-width: 800px) 
@@ -78,8 +107,14 @@
       {.aboutpic{Display:none;
                          }}
 @media (max-width: 800px) 
-       {.button1{position:absolute; left:36%; top:100%;
-                         }}                  
+       {.button1{position:sticky; left: auto; top:8%;
+                         }}    
+@media (max-width: 800px) 
+       {.supportedbrands{padding-left: 0%;
+                         }}    
+@media (max-width: 700px) 
+       {.supportedbrands{padding-left: 20%;
+                         }}              
   
 /* @media (max-wi                
   /* @media (max-width: 800px)  */
