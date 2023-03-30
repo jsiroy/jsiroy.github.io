@@ -63,10 +63,10 @@
 /****** Pricing CSS section----------------*/
 
  
-@media (max-width: 400px) 
+@media (max-width: 800px) 
        {.pricingformpading{padding-left: 2% !important;
         }}
-@media (max-width: 400px) 
+@media (max-width: 800px) 
        {.formwidth{width: 300px !important;
         }}
 @media (max-width: 800px) 
