@@ -82,7 +82,7 @@
 @media(max-width: 400px)  
         {.navpaddingitem{padding-left:0; padding:1% !important;
                     }}
-              /* up */
+              /* up--- */
 @media(min-width: 400px) 
         {.navpaddingitem{padding:2% !important;
                     }}
