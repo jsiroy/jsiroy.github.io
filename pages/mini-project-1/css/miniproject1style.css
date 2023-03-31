@@ -114,6 +114,9 @@
  @media (max-width: 1000px) 
      {.aboutuspic{display:none;
     }}
+    @media (max-width: 800px) 
+    {.contactpic{display:none;
+   }}
 @media (max-width: 800px) 
     {.aboutuspadding{padding-left:2% !important;
    }}
