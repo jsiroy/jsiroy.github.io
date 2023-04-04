@@ -20,22 +20,22 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse mx-3" id="navbarNav">
+                  <div class="collapse navbar-collapse mx-auto" id="navbarNav">
                     <ul class="navbar-nav">
-                      <li class="nav-item px-3">
+                      <li class="nav-item px-3 navbarResponsivePadding">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
-                      <li class="nav-item px-3">
+                      <li class="nav-item px-3 navbarResponsivePadding">
                         <a class="nav-link"  href="./pages/about.html">About</a>
                       </li>
-                      <li class="nav-item px-3">
+                      <li class="nav-item px-3 navbarResponsivePadding">
                         <a class="nav-link" href="./pages/projects.html">Projects</a>
                       </li>
-                      <li class="nav-item px-3">
+                      <li class="nav-item px-3 navbarResponsivePadding">
                         <a class="nav-link" href="./pages/blog.html">Blog</a>
                       </li>
 
-                      <li class="nav-item px-3">
+                      <li class="nav-item px-3 navbarResponsivePadding">
                         <a class="nav-link" href="./pages/contact.html">Contact</a>
                       </li>
                     </ul>
@@ -50,10 +50,10 @@
                            href="../portfolio/pages/contact.html" target="_blank" role="button" > 
                            Hire Me
                       </a>
-                  </div>
-                  <div class="row row-cols-auto mainpagegrid">
-                             <div class="col" >
-                                 <h1 class="display-1 family $font-family-base:Trebuchet MS" > 
+                  </div> 
+                  <div class="row row-cols-auto mainpagegrid justify-content-center container-fluid ">
+                             <div class="col-lg-6 d-block container-fluid " >
+                                 <h1 class="display-1  family $font-family-base:Trebuchet MS" > 
                                      <span class="highlight">More</span>
                                       Ways
                                      </h1>
@@ -66,8 +66,8 @@
                                       </h1>
                                  </h1>
                              </div>
-                             <div class="col profileimage">
-                            <img src="./resources/profile.png" alt="Profile Pic" height="400px">
+                             <div class="col-lg-6 profileimage container-fluid ">
+                            <img src="./resources/profile.png" alt="Profile Pic" height="400px" class="responsivepProfile d-block">
                             </div>  
                   </div>
                   <div class="nameheader" >
@@ -88,13 +88,13 @@
                         <!---------------Accordion starts here-----------------------> 
     <!----------about section here--------->
     <section class="about">
-        <h3 class="aboutsection px-4 pt-5"> About Me</h3>
+        <h3 class="aboutsection px-4 pt-5 responsiveSection"> About Me</h3>
         <hr>
                    <!-------- About section Accordion item one-------------->
                    
       <div class="accordion accordion-flush" id="accordionFlushExample">
              <div class="accordion-item background">
-                    <h2 class="accordion-header px-4" id="flush-headingOne" class="accordionheader">
+                    <h2 class="accordion-header px-4 responsiveSection" id="flush-headingOne" class="accordionheader">
                         <button class="accordion-button collapsed background" type="button" 
                          data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" 
                          aria-controls="flush-collapseOne">
@@ -132,7 +132,7 @@
              </div>
              <!--------Accordion item two-------------->
              <div class="accordion-item background">
-                      <h2 class="accordion-header px-4" id="flush-headingtwo">
+                      <h2 class="accordion-header px-4 responsiveSection" id="flush-headingtwo">
                           <button class="accordion-button collapsed background" type="button" 
                            data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" 
                            aria-controls="flush-collapsetwo">
@@ -190,7 +190,7 @@
                    </div>
         <!--------Accordion item three-------------->
             <div class="accordion-item background">
-                       <h2 class="accordion-header px-4" id="flush-headingthree">
+                       <h2 class="accordion-header px-4 responsiveSection" id="flush-headingthree">
                            <button class="accordion-button collapsed background" type="button" 
                             data-bs-toggle="collapse" data-bs-target="#flush-collapsethree" aria-expanded="false" 
                             aria-controls="flush-collapsethree">
@@ -269,7 +269,7 @@
             </div>     <!----accordion flush card end tag------>               
        <!----- accordion item four-------->
             <div class="accordion-item background">
-                       <h2 class="accordion-header px-4" id="flush-headingfour">
+                       <h2 class="accordion-header px-4 responsiveSection" id="flush-headingfour">
                            <button class="accordion-button collapsed background" type="button" 
                             data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" 
                             aria-controls="flush-collapsefour">
@@ -315,11 +315,11 @@
           <!----- accordion ends here-------->  
     </section>
     <section class="projects"> 
-        <h3 class="px-4 pt-5">Projects</h3> 
+        <h3 class="px-4 pt-5 responsiveSection">Projects</h3> 
            <hr> 
            <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item background">
-                <h2 class="accordion-header px-4" id="flush-headingfive">
+                <h2 class="accordion-header px-4 responsiveSection" id="flush-headingfive">
                     <button class="accordion-button collapsed background" type="button" 
                      data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" 
                      aria-controls="flush-collapsethree">
@@ -598,11 +598,11 @@
                               </div>  <!----carousel inner conatainer ends here-->
                              </div> <!----carousel container end tag ends here-->
                          
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev bg-black">
                               <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
                               <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next bg-black">
                               <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
                               <span class="visually-hidden">Next</span>
                             </button>
@@ -615,14 +615,13 @@
         </div>                   
       </section>
        <section class="Blog"> 
-        <section class="about">
-            <h3 class="aboutsection px-4 pt-5"> Blog</h3>
+            <h3 class="blogsection px-4 pt-5 responsiveSection"> Blog</h3>
             <hr>
             <!--------Blog section Accordion item                       -------------->
                        
       
         
-                     <h3 class="px-5">My Kodego Journey</h3>
+                     <h3 class="px-5 responsiveSection">My Kodego Journey</h3>
 
 
        </section>
