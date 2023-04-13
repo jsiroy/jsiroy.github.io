@@ -39,7 +39,7 @@
   a:hover { text-decoration-line: underline ; 
                  color:  rgb(98, 98, 233);
                    }
-  .actionbutton{z-index:1;position:fixed; top: 70%; left: 56%;
+  .actionbutton{z-index:1;position:absolute; top: 45%; left: 50%;
                     
                       }
     /*--------- main page container-----------*/         
@@ -54,19 +54,20 @@
             color:  rgb(50, 45, 51)
                    }
 
-  .mainpagegrid{padding-left: 20%; padding-top: 5%;padding-right:0px;}  
+  .flexcontainer{padding-top:5%;}  
+
+  /* --footer section-------- */
+  .footersection{min-height: 100%;margin-bottom:0px;}
 /*-----------Responsive Mobile View Home Field---------------*/
      
   /*-----------Responsive Mobile View Project Field ---------------*/
   @media (max-width: 800px) 
-          {.actionbutton{position:fixed; top: 65%; left: 55%;
+          {.actionbutton{position:fixed; top: 65%; left: 65%;
           }}
   @media (max-width: 500px) 
           {.nameheader{padding-left: 12% !important;
           }}
-  @media (max-width: 500px) 
-          {.mainpagegrid{padding-left: 0%; padding-right: 0px;
-          }}   
+
   @media (max-width: 500px) 
           {.responsivepProfile{height: 300px !important ;
           }} 
@@ -79,20 +80,12 @@
   @media (min-width: 1025px) 
            {.nameheader{padding-left: 18%  !important;
           }}
-  @media (min-width: 1000px) 
-          {.mainpagegrid{padding-left: 11%  !important;
-         }}
-  @media (max-width: 800px) 
-          {.mainpagegrid{padding-left: 15%; 
-          }} 
 
           /* 1024 resolution  */
   @media (max-width: 1024px) 
           {.nameheader{padding-left: 10%;
           }}
-  @media (max-width: 1024px) 
-          {.mainpagegrid{padding-left: 10%; padding-right: 0px;
-          }}
+
 
         /* 1024 resolution ends here  */  
 
@@ -108,12 +101,45 @@
           }}
 
    @media (min-width: 1100px)
-           {.mainpagegrid{padding-left: 18% !important; */
-           }}  */
-   @media (min-width: 1100px)
            {.nameheader{padding-left: 18% !important;
           }} 
-  /* --------------about page section----------------*/
+ 
+   /* ----Mobile Responsive for Footer Section starts here----- */
+
+@media (max-width: 319px) 
+       {.mainpageflexcontainer{ padding-left: 0%!important;
+         }}
+ @media (min-width: 320px) and (max-width: 375px) 
+          {.mainpageflexcontainer{ padding-left: 8%!important;
+           }}
+ @media (min-width: 376px) and (max-width:481px)
+        {.mainpageflexcontainer{ padding-left: 15% !important;
+            }}
+@media (min-width: 482px) and (max-width:700px)
+        {.mainpageflexcontainer{ padding-left: 20% !important;
+          }}
+@media (min-width: 701px) and (max-width:900px)
+        {.mainpageflexcontainer{ padding-left: 25% !important;
+          }}
+@media (min-width: 901px) and (max-width:991px)
+        {.mainpageflexcontainer{ padding-left: 28% !important;
+          }}
+ @media (max-width: 576px) 
+          {.mainpageflexcontainer{ flex-direction: column !important;
+           }}
+  
+  @media (max-width: 400px) 
+          {.footerNavMobileRes{flex-direction: column !important;
+          }}
+  @media (max-width: 797px) and (min-width: 401px)
+          {.footerNavMobileRes{justify-content: center !important;
+          }}
+  @media (max-width: 800px) 
+          {.footercContainerMobileRes{flex-direction: column; text-align: center !important;
+          }}
+
+  /* ----Mobile Responsive for Footer Section ends here----- */
+   /* --------------about page section----------------*/
   .description{list-style-type:none;
            }
   .list {S
