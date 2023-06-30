@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="./resources/favicon.png" type="image/x-icon" width="100%">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="./css/mainpagestyle.css" rel="stylesheet">
@@ -13,11 +14,12 @@
     <header>
        
         <!----------------Navigation Bar Area-------------------->
-            <nav class="navbar navbar-expand-lg bg-dark-subtle sticky-top">
+            <nav class="navbar navbar-expand-lg navbarColor sticky-top">
               <div class="container-fluid">
                   <img src="./resources/favicon.png" alt="JSI logo" height="50px">
                   
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse mx-auto" id="navbarNav">
@@ -46,11 +48,11 @@
     </header>
           <!--------mainpage content starts here ------->
         <section>
-                  <div class="actionbutton">
-                      <a class="btn btn-primary btn-lg" 
-                           href="../portfolio/pages/contact.html" target="_blank" role="button" > 
-                           Hire Me
-                      </a>
+                  <div class="actionbutton">                  
+                         <a class="btn btn-primary btn-lg "
+                              href="../portfolio/pages/contact.html" target="_blank" role="button" > 
+                              Hire Me
+                         </a>
                   </div> 
                   <!-- flex container 1 -->
             <p class="flexcontainer">
@@ -104,6 +106,8 @@
                         <!---------------Accordion starts here-----------------------> 
     <!----------about section here--------->
     <section class="about">
+     <div class="">
+      <div class="indexBodyContent">
         <h3 class="aboutsection px-4 pt-2 responsiveSection"> About Me</h3>
         <hr>
                    <!-------- About section Accordion item one-------------->
@@ -123,9 +127,10 @@
                     <div class="accordion-body ">
                             <ul>
                                 <p>           
-                                    <li class="list">Currently Studying Partime@Kodego Bootcamp</li>
+                                    <li class="list">Completed 16 weeks Kodego Bootcamp</li>
                                     <ul class="description">
-                                           <li>Fullstack WEb Developer</li>
+                                      <li>Fullstack Web Developer</li>
+                                      <li>Feb. 27, 2023 to June 24, 2023</li>
                                     </ul>
                                 </p>
                            </ul>
@@ -232,9 +237,9 @@
                                              <p>
                                                  <div class="skills">
                                                       <div class="containerimage">
-                                                          <img src="./resources/html5.jpg" alt="html logo" height="100px" width="200px">
+                                                          <img src="./resources/mongoDB.jpg" alt="html logo" height="100px" width="200px">
                                                       </div>
-                                                     <h3 class="pt-5">HTML 5</h3>
+                                                     <h3 class="pt-5">Mongo Database</h3>
                                                      <div class="skill-description">
                                                       <p>Intermediate skill level </p>  
                                                      </div>
@@ -245,9 +250,9 @@
                                                     <p>
                                                         <div class="skills">
                                                              <div class="containerimage">
-                                                                 <img src="./resources/html5.jpg" alt="html logo" height="100px" width="200px">
+                                                                 <img src="./resources/expressJS.jpg" alt="html logo" height="100px" width="200px">
                                                              </div>
-                                                            <h3 class="pt-5">HTML 5</h3>
+                                                            <h3 class="pt-5">Express JS</h3>
                                                             <div class="skill-description">
                                                              <p>Intermediate skill level </p>  
                                                             </div>
@@ -258,9 +263,9 @@
                                                <p>
                                                    <div class="skills">
                                                         <div class="containerimage">
-                                                            <img src="./resources/html5.jpg" alt="html logo" height="100px" width="200px">
+                                                            <img src="./resources/react.jpg" alt="html logo" height="100px" width="200px">
                                                         </div>
-                                                       <h3 class="pt-5">HTML 5</h3>
+                                                       <h3 class="pt-5">React</h3>
                                                        <div class="skill-description">
                                                         <p>Intermediate skill level </p>  
                                                        </div>
@@ -271,9 +276,9 @@
                                                       <p>
                                                            <div class="skills">
                                                              <div class="containerimage">
-                                                                 <img src="./resources/css.jpg "alt="css logo"height="100px" width="200px">
+                                                                 <img src="./resources/nodeJS.jpg "alt="css logo"height="100px" width="200px">
                                                              </div>
-                                                             <h3 class="pt-5">CSS</h3>
+                                                             <h3 class="pt-5">Node JS</h3>
                                                              <div class="skill-description">
                                                                <p>Intermediate skill level</p>   
                                                             </div>
@@ -336,8 +341,12 @@
                 </div> <!-----accodion background end tag----->    
         </div><!-----accodion flush end tag----->
           <!----- accordion ends here-------->  
+        </div>
+      </div>
     </section>
     <section class="projects"> 
+      <div class="">
+        <div class="indexBodyContent">
         <h3 class="px-4 pt-5 responsiveSection">Projects</h3> 
            <hr> 
            <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -380,26 +389,33 @@
                                                          </p>
                                                        </div>
                                                        <div class="col pb-2">
-                                                               <p>
-                                                                 <div class="project-name">
-                                                                     <div class="containerimage">
-                                                                         <img src="./resources/ongoing.jpg" alt="adobe logo"height="220px" width="370px" >
-                                                                     </div>
-                                                                     <p>Kodego Mini Project 2                  
-                                                                    </p> 
-                                                                 </div>                                 
-                                                            </p> 
+                                                        <a href="https://jsiroy.github.io/kodevamps-mp2/"target="_blank" rel="mini-project-1">
+                                                          <p>
+                                                            <div class="project-name">
+                                                           
+                                                                <div class="containerimage">
+                                                                    <img src="./resources/kodego-mp2.jpg" alt="adobe logo"height="220px" width="370px" >
+                                                                </div>
+                                                          
+                                                            </div>
+                                                                  <p>Kodego Mini Project 2                  
+                                                                  </p>  
+                                                                
+                                                       </p> 
+                                                     </a>  
                                                        </div>
                                                        <div class="col pb-2">
-                                                               <p>
-                                                                 <div class="project-name">
-                                                                     <div class="containerimage">
-                                                                         <img src="./resources/ongoing.jpg" alt="adobe logo"height="220px" width="370px" >
-                                                                     </div>
-                                                                     <p>Capstone                  
-                                                                    </p> 
-                                                                 </div>               
-                                                             </p>     
+                                                        <a href="https://kodesimple.vercel.app/"target="_blank" rel="mini-project-1">
+                                                          <p>
+                                                            <div class="project-name">
+                                                                <div class="containerimage">
+                                                                    <img src="./resources/capstone.jpg" alt="adobe logo"height="220px" width="370px" >
+                                                                </div>
+                                                            </div>
+                                                                  <p>Capstone                  
+                                                                  </p>  
+                                                       </p>    
+                                                   </a>    
                                                      </div>                           
                                            </div>                   
                                       <!---------casrousel container 1 ends here-->
@@ -438,11 +454,13 @@
            </div>  
         </div> 
       </div>  
+    </div>
+  </div>
           <!----------project card ends here-----------------> 
                  <!----------Footer section starts here-----------------> 
     </section>
               <section class="footerAllPage">  
-                     <footer class="bg-dark-subtle container-fluid mb-0">     
+                     <footer class="navbarColor container-fluid mb-0">     
                         <div class="d-flex justify-content-around footercContainerMobileRes">
                                 <div class="d-flex flex-row mb-3 footerNavMobileRes">
                                       <div class="p-2">
