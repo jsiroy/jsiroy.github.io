@@ -2,7 +2,7 @@
 .accordionheader{font-size: 200px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .background{
-        background-color: rgb(164, 180, 184);
+        background-color: rgb(134, 160, 155);
         font-family: 'Trebuchet MS';
        }
 
@@ -149,24 +149,44 @@
           }}
             /* ----Mobile Responsive for Footer Section ends here----- */
          /* ------main page skill container mobile responisve starts here---- */
-@media (max-width: 319px) 
-       {.skillcontainer{ padding-left: 0%!important;
-         }}
- @media (min-width: 320px) and (max-width: 375px) 
-          {.skillcontainer{ padding-left: 0%!important;
-           }}
- @media (min-width: 376px) and (max-width:481px)
-        {.skillcontainerr{ padding-left: 9% !important;
+
+ @media  (max-width:481px){
+        .skillcontainer{ 
+                padding-left: 9% !important;
             }}
-@media (min-width: 482px) and (max-width:700px)
-        {.skillcontainer{ padding-left: 14% !important;
+
+@media (min-width: 482px) and (max-width:700px){
+        .skillcontainer{ 
+                padding-left: 14% !important;
           }}
-@media (min-width: 701px) and (max-width:900px)
-        {.skillcontainer{ padding-left: 16% !important;
+
+@media (min-width: 701px) and (max-width:900px){
+        .skillcontainer{ 
+                padding-left: 16% !important;
           }}
-@media (min-width: 901px) and (max-width:991px)
-        {.skillcontainer{ padding-left: 22% !important;
-          }} */
+
+@media (max-width: 481px){
+        .skills{
+               width: 250px !important;     
+        } 
+} 
+          
+@media (min-width: 901px) and (max-width:991px){
+        .skillcontainer{ 
+                padding-left: 22% !important;
+          }} 
+
+@media (max-width: 500px){
+        .project-body-responsive{
+                width: 95% !important;
+        }
+}          
+      
+@media (max-width: 500px){
+        .about-body-responsive{
+                width: 95% !important;
+        }
+} 
  /* @media (max-width: 576px) 
           {.skillcontainer{ flex-direction: column !important;
            }}
@@ -181,37 +201,53 @@
           }
 
                  
-  .skill-name{ opacity: 1;
+  .skill-name{ 
+        opacity: 1;
        
            }
-  .skills{ background-color: white;
-           border: 1px solid rgb(115, 113, 119);
-           padding: 15px; height: 350px; padding-top:50px;
-           box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-          -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-          -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+
+  .skills{ 
+        background-color: white;
+        border: 1px solid rgb(115, 113, 119);
+        padding: 15px; height: 280px; padding-top:50px;
+        box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+       -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+       -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
            } 
-  .skill-name:hover{opacity:.5;}        
-  .skill-name{ background-color: white;
-           border: 1px solid rgb(115, 113, 119);
-           padding: 15px; height: 400px; padding-top:50px;
-           box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-          -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-          -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
-          } 
+
+  .skill-name:hover{
+        opacity:.5;
+        }        
+  .skill-name{
+         background-color: white;
+         border: 1px solid rgb(115, 113, 119);
+         padding: 15px; height: 400px; padding-top:50px;
+         box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+        -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+        -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+        } 
+  .skill-description{
+        padding-top: 30px !important;
+       }
    
   /*  -------Project Section CSS------- */
  
        
-.project-name{ opacity: 1;}
-.project-name:hover{opacity:.5;}        
+.project-name{
+         opacity: 1;
+        }
+
+.project-name:hover{
+        opacity:.5;
+        }   
+
 .project-name{ 
-  border: 1px solid rgb(115, 113, 119);
-  width: 370px; height: 220px; padding-top:0px;
-  box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
- -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
- -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
- } 
+        border: 1px solid rgb(115, 113, 119);
+        width: 370px; height: 220px; padding-top:0px;
+        box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+       -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+       -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+       } 
 
  .footerAllPage{
         align-items:last baseline;
@@ -230,7 +266,7 @@
 }
 
 .navbarColor{
-        background-color:#636e70;
+        background-color:#e8efee;
 }
 
 /* Background color */
