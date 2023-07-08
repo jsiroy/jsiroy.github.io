@@ -1,5 +1,13 @@
 
-.accordionheader{font-size: 200px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.accordionheader{
+        font-size: 200px;
+        font-family: 'Trebuchet MS',
+                     'Lucida Sans Unicode', 
+                     'Lucida Grande', 
+                     'Lucida Sans',
+                      Arial, 
+                      sans-serif;
+                }
 
 .background{
         background-color: rgb(134, 160, 155);
@@ -39,12 +47,48 @@
   .navbar a:active{ 
                    font-weight: 900;
                     }
-  a:hover { text-decoration-line: underline ; 
-                 color:  rgb(98, 98, 233);
-                   }
-  .actionbutton{z-index:1;position:absolute; top: 45%; left: 50%;
+  a:hover { 
+          text-decoration-line: underline ; 
+          color:  rgb(98, 98, 233);
+        }
+
+  .actionbutton{
+        z-index:1;position:absolute; 
+        top: 45%; 
+        left: 50%;
                     
-                      }
+        }
+ 
+.resume{
+        display: none;
+}
+
+
+.resume-link:hover .resume {
+        display: initial !important;
+        text-decoration: none !important;
+        color:  black;
+       }
+
+.linkIn{
+        display: none;
+       }   
+       
+.linkIn-link:hover .linkIn {
+        display: initial !important;
+        text-decoration: none !important;
+        color:  black;
+       }
+
+.gitHub{
+        display: none;
+       }   
+       
+.gitHub-link:hover .gitHub {
+        display: initial !important;
+        text-decoration: none !important;
+        color:  black;
+       }
     /*--------- main page container-----------*/         
       
 /*--------- main page container-----------*/
@@ -283,4 +327,8 @@
 .about .accordion-button:not(.collapsed) {
   background-color: rgb(164, 180, 184);
   border: none; /* Remove border for active state */
+}
+
+.blog-content-firts-line{
+        padding-left: 100px;
 }
