@@ -20,7 +20,7 @@
  /*--------NAVAGATION & BUTTONS -----------*/
     a{ text-decoration: none; 
                background-color:none;color:  black; }
-  .navbar { opcaity: 1;
+  .navbar { 
             -webkit-transition: all 0.3s ease-out;
             -moz-transition: all 0.3s ease-out;
             -ms-transition: all 0.3s ease-out;
@@ -330,9 +330,34 @@
 }
 
 .blog-content-firts-line{
-        padding-left: 100px;
+        padding-left: 50px;
 }
 
 .capstone-link{
-        color:rgb(35, 118, 213);
+        color:rgb(45, 12, 130);
 }
+
+.blog-background-image {
+        background-image: url(../resources/buildings/pexels-jonas-ferlin-1845269.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
+
+.about-background-image {
+  background-image: url(../resources/buildings/pexels-mantas-sinkevičius-1106476.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.about-background{
+        background-color: transparent;
+}
+
+.project-background-image  {
+        background-image: url(../resources/buildings/pexels-mantas-sinkevičius-1106476.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
