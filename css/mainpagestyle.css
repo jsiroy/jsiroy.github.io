@@ -28,28 +28,33 @@
 
               }
   .hovercolor:hover{color: blue;}
-  .profileimage{opacity: .3; 
-                animation-name: profileanimation;
-                       animation-duration: 7s;
-                      } 
+  .profileimage{
+        opacity: .3; 
+        animation-name: profileanimation;
+        animation-duration: 7s;
+        } 
   @keyframes profileanimation {
             from {opacity:1;}
               to {opacity:.3;}
                       }                
-  .profileimage:hover{opacity: .9; 
-                      cursor: pointer;
-                    }  
-  .navbar{z-index:1;}     
-  .navbar a:hover{  opacity: .5;
-                 font-weight: 900;
-                  }
+  .profileimage:hover{
+        opacity: .9; 
+        cursor: pointer;
+        }  
+  .navbar{
+        z-index:1;
+        }     
+  .navbar a:hover{  
+          opacity: .5;
+         font-weight: 900;
+        }
 
   .navbar a:active{ 
-                   font-weight: 900;
-                    }
+         font-weight: 900;
+        }
   a:hover { 
-          text-decoration-line: underline ; 
-          color:  rgb(98, 98, 233);
+        text-decoration-line: underline ; 
+        color:  rgb(98, 98, 233);
         }
 
   .actionbutton{
