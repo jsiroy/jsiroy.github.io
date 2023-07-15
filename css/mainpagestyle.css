@@ -43,19 +43,19 @@
         }  
   .navbar{
         z-index:1;
+        font-size: medium;
         }     
   .navbar a:hover{  
           opacity: .5;
-         font-weight: 900;
+         /* font-weight: 900; */
+         color: rgb(15, 62, 81);
+         border-bottom: 1px solid rgb(29, 151, 170);
         }
+  
+ .nav-link:hover {
+        color:#6d9d98;
+ }
 
-  .navbar a:active{ 
-         font-weight: 900;
-        }
-  a:hover { 
-        text-decoration-line: underline ; 
-        color:  rgb(98, 98, 233);
-        }
 
   .actionbutton{
         z-index:1;
