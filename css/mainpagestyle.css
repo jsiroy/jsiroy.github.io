@@ -267,9 +267,6 @@
                 width: 95% !important;
         }
 } 
- /* @media (max-width: 576px) 
-          {.skillcontainer{ flex-direction: column !important;
-           }}
          /* ------main page skill container mobile responisve ends here---- */
 
 
@@ -346,7 +343,7 @@
 }
 
 .navbarColor{
-        background-color:#e8efee;
+        background-color:#ffffff;
 }
 
 /* Background color */
