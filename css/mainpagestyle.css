@@ -46,25 +46,16 @@
         font-size: medium;
         }     
 
-  .navbar a:hover{  
-          opacity: .5;
-         /* font-weight: 900; */
-         color: rgb(15, 62, 81);
-        
-        
-        }
-
- .nav-link {
-       
- }
 
  .nav-link:hover {
+        color:#87a7a4;
+ }
+
+ .nav-header:hover {
         color:#6d9d98;
         border-bottom: 1px solid rgb(5, 52, 63);
-        /* border-top: 1px solid rgb(5, 52, 63); */
         /* box-shadow: 0px 14px 2px -1px rgba(31,8,17,1); */
-        box-shadow: inset 0px -116px 5px -110px rgb(28, 17, 2);
-        /* box-shadow: inset -1px 15px 2px -1px rgba(31,8,17,1); */
+        box-shadow: inset 0px -116px 5px -110px rgb(86, 78, 69);
  }
 
   .actionbutton{
