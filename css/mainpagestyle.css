@@ -231,7 +231,7 @@
 
  @media  (max-width:481px){
         .skillcontainer{ 
-                padding-left: 9% !important;
+                padding-left: 0% !important;
             }}
 
 @media (min-width: 482px) and (max-width:700px){
@@ -244,17 +244,18 @@
                 padding-left: 16% !important;
           }}
 
+@media (min-width: 901px) and (max-width:991px){
+        .skillcontainer{ 
+                padding-left: 22% !important;
+          }} 
+        
+
 @media (max-width: 481px){
         .skills{
                width: 250px !important;     
         } 
 } 
           
-@media (min-width: 901px) and (max-width:991px){
-        .skillcontainer{ 
-                padding-left: 22% !important;
-          }} 
-
 @media (max-width: 500px){
         .project-body-responsive{
                 width: 95% !important;
