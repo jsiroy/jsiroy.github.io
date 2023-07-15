@@ -366,3 +366,66 @@
         background-position: center;
         height: 100vh;
       }
+
+.google-map {
+        height: 600px;
+        width: 100%;
+        
+}
+
+.google-map-frame {
+        border-radius: 15px;
+        height: 580px;
+        width: 100%;
+        box-shadow: -2px 3px 17px 3px rgba(72, 70, 70, 0.41);
+        padding: 2px;
+}
+
+
+
+@media (max-width:1100px ) {
+ .contact-info-container  {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width:1100px ) {
+        .container-info-items  {
+               width: 100% !important;
+           }
+       }
+
+@media (max-width:699px) {
+        .contact-info-container-main  {
+               width: 80% !important;
+           }
+       }
+
+@media (max-width:799px ) and (min-width: 700px) {
+        .contact-info-container-main  {
+               width: 70% !important;
+           }
+       }
+
+@media ( max-width:1100px ) and (min-width: 800px) {
+        .contact-info-container-main  {
+               width: 60% !important;
+           }
+       }
+
+.contact-info-container {
+               border-radius: 15px;
+               background-color: #e7efee;
+               box-shadow: -2px 3px 17px 3px rgba(72, 70, 70, 0.41);
+            }
+
+.contact-info-text {
+                padding-left: 10px;
+        }
+.contact-icon {
+        width:30px;
+}
+
+.modal-body{
+        max-width: 400px;
+}
