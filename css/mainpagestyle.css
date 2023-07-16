@@ -323,9 +323,9 @@
 .project-name{ 
         border: 1px solid rgb(115, 113, 119);
         width: 370px; height: 220px; padding-top:0px;
-        box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-       -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
-       -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63); 
+        box-shadow: 15px -10px 5px -1px rgba(0,0,0,0.63);
+       /* -webkit-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);
+       -moz-box-shadow: 20px -16px 5px -1px rgba(0,0,0,0.63);  */
        } 
 
  .footerAllPage{
